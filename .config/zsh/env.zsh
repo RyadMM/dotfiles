@@ -47,7 +47,7 @@ export EDITOR="nvim"
 export PATH="$HOME/.antigravity/antigravity/bin:$PATH"
 export PATH="$HOME/.bun/bin:$PATH"
 export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
-export PATH="/Users/ryad/.opencode/bin:$PATH"
+export PATH="$HOME/.opencode/bin:$PATH"
 export PATH="$HOME/.claude/local:$PATH"
 
 # pnpm (managed by pnpm itself, added here for shell initialization)
