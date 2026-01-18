@@ -13,6 +13,7 @@ Movies/
 Music/
 Pictures/
 Desktop/
+.Trash/
 
 # Temporary and cruft files
 .DS_Store
