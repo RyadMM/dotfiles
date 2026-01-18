@@ -5,17 +5,18 @@
 	email = ryad.meftahi@gmail.com
 [core]
   editor = nvim
-  pager = delta
+	pager = delta
 	hooksPath = /Users/ryad/.git/hooks
 [alias]
   rb = "for-each-ref --count=10 --sort=-committerdate refs/heads/ --format='%(refname:short)'"
 
 [interactive]
-  diffFilter = delta --color-only
+	diffFilter = delta --color-only
 
 [delta]
-  navigate = true# use n and N to move between diff sections
-  light = false# set to true if you're in a terminal w/ a light background color (e.g. the default macOS terminal)
+	navigate = true
+	light = false
+	dark = true
 
 [merge]
   conflictstyle = diff3

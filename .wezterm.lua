@@ -49,7 +49,9 @@ local M = {
   keys = {
     { key = "Enter", mods = "SHIFT", action = wezterm.action.SendString "\n" },
     -- Fix Alt+C for fzf directory browser (explicitly send as Meta)
-    { key = "c", mods = "ALT", action = wezterm.action.SendKey { key = "c", mods = "META" } }
+    { key = "c", mods = "ALT", action = wezterm.action.SendKey { key = "c", mods = "META" } },
+    -- Fix Alt+H for fzf hidden files (explicitly send as Meta)
+    { key = "h", mods = "ALT", action = wezterm.action.SendKey { key = "h", mods = "META" } }
   },
 
   -- Shift+Click to open URLs in Brave Browser and files in VS Code
