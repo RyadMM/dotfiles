@@ -9,8 +9,8 @@ Uses bare repository pattern: git directory at `$HOME/.local/share/dotfiles-repo
 ## Setup
 
 ```sh
-# Clone bare repository
-git clone --bare https://github.com/RyadMM/dotfiles.git $HOME/.local/share/dotfiles-repo
+# Clone bare repository (requires SSH key setup with GitHub)
+git clone --bare git@github.com:RyadMM/dotfiles.git $HOME/.local/share/dotfiles-repo
 
 # Configure git to ignore untracked files
 git --git-dir=$HOME/.local/share/dotfiles-repo/ --work-tree=$HOME config status.showUntrackedFiles no
