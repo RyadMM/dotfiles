@@ -32,6 +32,3 @@ export HISTFILE="$XDG_STATE_HOME/zsh/history"
 
 # ZAI Claude provider (requires ZSH_ZAI_API_KEY)
 export ZSH_ZAI_API_KEY="${ZSH_ZAI_API_KEY:-}"
-
-# Dotfiles management (use 'config' like 'git')
-alias config='/usr/bin/git --git-dir=$HOME/.local/share/dotfiles-repo/ --work-tree=$HOME'
